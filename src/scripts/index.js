@@ -1,4 +1,4 @@
 import '../styles/index.scss';
-import {work} from 'second.js';
+import {work} from './telsecond.js';
 
 console.log(work);
