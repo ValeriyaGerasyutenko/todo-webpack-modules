@@ -1,4 +1,9 @@
 import '../styles/index.scss';
-import {work} from './telsecond.js';
+import {ToDoClass} from './second.js';
 
-console.log(work);
+
+let toDo;
+
+window.addEventListener("load", () => {
+  toDo = new ToDoClass();
+});
