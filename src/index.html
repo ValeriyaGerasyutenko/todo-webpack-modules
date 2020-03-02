@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webpack starterkit</title>
+</head>
+<body>
+  <div class="container-flex">
+		<section class="block">
+			
+			<section class="info">
+				<h2 class="info__title">ToDo</h2>
+				<p class="info__subtitle">Stay on track and Organize your Life with toDo</p>
+				<div class="info__img-wrapper">
+					<img class="info__img" src="../img/undraw_random_thoughts_xejj.svg" alt="App picture">
+				</div>
+		
+				<ul class="info__list">
+					<li class="info__list-item">ToDo is your best Ultimate Daily Planner</li>
+					<li class="info__list-item">Create, assign, organize, prioritize and share tasks</li>
+					<li class="info__list-item">Alerts, notifications and reminders to keep teams on track </li>
+				</ul>
+			</section>
+			<section class="app">
+				<h2 class="app__title">Today's tasks</h2>
+
+				<div class="app__input">        
+            <input type="text" placeholder="New Task" class="input" id="addTask">
+
+            <button class="btn" onclick="toDo.addTaskClick()">Add Task</button>     
+        </div>
+
+        <ul class="app__list" id="taskList"></ul>
+				
+			</section>
+		</section>
+	</div>
+</body>
+</html>
