@@ -2,8 +2,11 @@ import '../styles/index.scss';
 import {ToDoClass} from './second.js';
 
 
-let toDo;
-
 window.addEventListener("load", () => {
-  toDo = new ToDoClass();
+  let toDo = new ToDoClass();
+
+  let button = document.querySelector('.btn');
+  button.addEventListener('mousedown', toDo.addTaskClick());
+
 });
+
